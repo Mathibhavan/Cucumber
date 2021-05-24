@@ -24,8 +24,12 @@ public class LoginPage {
 	}
 	public WebElement getUsername() {
 		return username;
+		
 	}
 	public WebElement getPassword() {
 		return password;
+		
 	}
+	
+	
 }
