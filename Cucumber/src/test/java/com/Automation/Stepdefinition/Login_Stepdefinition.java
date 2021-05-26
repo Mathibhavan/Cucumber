@@ -28,44 +28,10 @@ public static WebDriver driver= Runner.driver;
 		   Input_Element(driver.findElement(By.id("password")), arg1); 
 		}
 		
-		@When("^User enter Mathi as username$")
-		public void user_enter_Mathi_as_username() throws Throwable {
-		  
-		}
-
-		@When("^User enter lalu(\\d+) as password$")
-		public void user_enter_lalu_as_password(int arg1) throws Throwable {
-		   
-		}
-
-		@When("^User enter Bhavan as username$")
-		public void user_enter_Bhavan_as_username() throws Throwable {
-		    
-		}
-
-		@When("^User enter BB@(\\d+) as password$")
-		public void user_enter_BB_as_password(int arg1) throws Throwable {
-		    
-		}
-
-		@When("^User enter Mathu as username$")
-		public void user_enter_Mathu_as_username() throws Throwable {
-		   
-		}
-
-		@When("^User enter njhj(\\d+) as password$")
-		public void user_enter_njhj_as_password(int arg1) throws Throwable {
-		    
-		}
-
 		@When("^User click on the login button$")
 		public void user_click_on_the_login_button() throws Throwable {
 		   Click_Element(driver.findElement(By.id("login"))); 
-		    
 		}
 
-		@Then("^User validate the entred username and password$")
-		public void user_validate_the_entred_username_and_password() throws Throwable {
-		    
-		}
+		
 	}
